@@ -15,7 +15,7 @@ void moveTo(int x, int y)
 }
 
 // delay function
-v                   oid pause(unsigned int milliseconds)
+void pause(unsigned int milliseconds)
 {
     clock_t goal = milliseconds + clock();
     while (goal > clock());
